@@ -110,6 +110,7 @@
 				TargetAttributes = {
 					E63067951BD5477C0023D4EC = {
 						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = 5SJQNJW2RJ;
 					};
 				};
 			};
@@ -263,9 +264,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = SinglePage/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.nicolaslinard.SinglePage;
+				PRODUCT_BUNDLE_IDENTIFIER = nicolas.linard.SinglePage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -274,9 +276,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: MEDES-INST MEDECINE PHYSIOLOGIE SPATIA";
 				INFOPLIST_FILE = SinglePage/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.nicolaslinard.SinglePage;
+				PRODUCT_BUNDLE_IDENTIFIER = nicolas.linard.SinglePage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -300,6 +303,7 @@
 				E63067AF1BD5477C0023D4EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
