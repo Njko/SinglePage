@@ -7,8 +7,10 @@
 //
 
 #import "ViewController.h"
+#import <BlinkingLabel/BlinkingLabel-Swift.h>
 
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet BlinkingLabel *blinkinglabel;
 
 @end
 
@@ -17,6 +19,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    [self.blinkinglabel startBlinking];
+
 }
 
 - (void)didReceiveMemoryWarning {

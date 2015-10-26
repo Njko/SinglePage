@@ -1,0 +1,20 @@
+PODS:
+  - BlinkingLabel (0.1.0)
+
+DEPENDENCIES:
+  - BlinkingLabel (from `https://github.com/Njko/BlinkingLabel.git`, tag `0.1.0`)
+
+EXTERNAL SOURCES:
+  BlinkingLabel:
+    :git: https://github.com/Njko/BlinkingLabel.git
+    :tag: 0.1.0
+
+CHECKOUT OPTIONS:
+  BlinkingLabel:
+    :git: https://github.com/Njko/BlinkingLabel.git
+    :tag: 0.1.0
+
+SPEC CHECKSUMS:
+  BlinkingLabel: a2b017f915b9db3d9f12df75f3d692a0cedf239b
+
+COCOAPODS: 0.39.0
